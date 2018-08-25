@@ -4,7 +4,7 @@ pipeline {
     }
     
     environment {
-      MAVEN_OPTS="-Xms1024m -Xmx10480m"
+      MAVEN_OPTS="-Xms1024m -Xmx1024m"
     }
     
     stages{

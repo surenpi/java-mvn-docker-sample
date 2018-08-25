@@ -14,6 +14,8 @@ pipeline {
                 
                 container('maven'){
                     sh 'mvn clean package'
+                    
+                    sh 'mvn -DjvmArgs="-Xmx1025m" clean'
                 }
             }
         }

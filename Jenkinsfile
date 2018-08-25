@@ -12,7 +12,9 @@ pipeline {
             steps{
                 sh 'java -XX:+PrintFlagsFinal -version | grep HeapSize'
                 
-                sh 'mvn clean package'
+                container('maven'){
+                    sh 'mvn clean package'
+                }
             }
         }
     }

@@ -4,7 +4,7 @@ pipeline {
     }
     
     environment {
-      JAVA_OPTIONS="-Xms1024m -Xmx1048m"
+      JAVA_OPTIONS="-Xms1024m -Xmx10480m"
     }
     
     stages{

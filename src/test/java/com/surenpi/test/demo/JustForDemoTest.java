@@ -15,5 +15,6 @@ public class JustForDemoTest {
     public void two() {
         System.out.println("hello test in two");
         assertEquals("", "");
+        assertEquals("", "dd");
     }
 }

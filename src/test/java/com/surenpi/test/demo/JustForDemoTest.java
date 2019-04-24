@@ -13,6 +13,7 @@ public class JustForDemoTest {
 
     @Test
     public void two() {
+        System.out.println("hello test in two");
         assertEquals("", "");
     }
 }

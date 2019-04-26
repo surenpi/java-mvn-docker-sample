@@ -16,6 +16,8 @@ pipeline {
                     sh 'mvn clean package'
                     
                     sh 'mvn -DjvmArgs="-Xmx1025m" clean'
+                    
+                    sh 'mvn test'
                 }
             }
         }
